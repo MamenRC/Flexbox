@@ -1,9 +1,22 @@
-.box {
+/*.box {
 	width: 500px;
 	height: 500px;
 	border: 2px solid black;
 	display: flex;
 	flex-direction: row;
+}
+.box1, .box3, .box5 {
+	background-color: grey;
+}
+.box2, .box4, .box6 {
+	background-color: black;
+}*/
+.box {
+	width: 500px;
+	height: 500px;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
 }
 .box1, .box3, .box5 {
 	background-color: grey;
