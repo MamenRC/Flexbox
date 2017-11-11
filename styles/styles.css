@@ -24,7 +24,32 @@
 .box2, .box4, .box6 {
 	background-color: black;
 }*/
-.box {
+/*.box {
 	display: flex;
 	flex-wrap: wrap;
+}*/
+/*.menu {
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid red;
+	}
+.menu a {
+	height: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}*/
+.menu {
+	width: 200px;
+	border: 2px solid red;
+	display: flex;
+	flex-direction: column;
+	}
+.menu a{
+	display:flex;
+	justify-content: space-around;
+	text-decoration: none;
 }
